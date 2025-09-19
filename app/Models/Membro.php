@@ -10,7 +10,8 @@ class Membro extends Model
     use HasFactory;
     protected $fillable = [
         'nome_completo', 
-        'endereco', 
-        'telefone'
+        'telefone',
+        'endereco',
+
     ];
 }
